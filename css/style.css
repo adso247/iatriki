@@ -1,0 +1,28 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* Usa el modelo de caja flexible */
+    justify-content: center; /* Centra los elementos verticalmente */
+    background-color: #f0f0f0; /* Cambia el color de fondo */
+}
+
+/* Estilos para el tablero */
+.board {
+    display: flex; /* Usa el modelo de caja flexible */
+    flex-direction: column; /* Orienta los elementos en una columna */
+    text-align: center; /* Centra el texto dentro del tablero */
+}
+
+/* Estilos para cada fila del tablero */
+.row {
+    display: flex; /* Usa el modelo de caja flexible */
+}
+
+/* Estilos para cada celda del tablero */
+.cell {
+    width: 100px; /* Ancho de 100px para cada celda */
+    height: 100px; /* Altura de 100px para cada celda */
+    border: solid 1px black; /* Borde de 1px sólido en color negro */
+    font-size: 38px; /* Tamaño de fuente de 38px */
+    font-weight: bold; /* Fuente en negrita */
+}

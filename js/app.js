@@ -15,7 +15,7 @@ const playerDiv = document.querySelector("#player");
 
 // Definición de una función llamada "renderBoard" que renderiza el tablero en HTML
 function renderBoard() {
-  // Mapea cada fila en el tablero
+  // Recorre el array con .map
   const html = board.map((row) => {
     // Mapea cada celda en la fila actual y crea un botón para representarla
     const cells = row.map((cell) => {
